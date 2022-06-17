@@ -1,1 +1,23 @@
-This is searching algorithm
+All searching algorithm are there
+
+Linear Search - go through all element one by one 
+    for i in array:
+        if i == match:
+            return True
+
+    Time complexity for linear Search in worst case is O(n)
+
+Binary Search - it works on monotoring function (organised order ascending or descending order)
+    Our Approach-
+        first find mid element and compare with key: return index
+        if key > mid then take the right part:again go recursively
+        if key < mid then take the left part:again go recursively
+        return Not Found
+        
+    the Drawbacks - 
+        * If there exit repeated element
+        
+
+    
+
+        
