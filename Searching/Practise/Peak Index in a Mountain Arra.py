@@ -1,3 +1,6 @@
+
+"https://leetcode.com/problems/peak-index-in-a-mountain-array/"
+
 '''
 Given problem - An array consist of two array one is ascending and another is descending you have to find out the index through which one array is ending and another array is starting means top most element of a array at center.
 
@@ -7,7 +10,7 @@ Approach to solve this problem-
 
 '''
 
-def peakIndexInMountainArray(arr):
+def plfeakIndexInMountainArray(arr):
 
     start = 0
     end  = len(arr)-1
@@ -24,11 +27,9 @@ def peakIndexInMountainArray(arr):
 
 # Another Approach
 def peakIndexInMountainArray(arr):
-
     start = 0
     end  = len(arr)-1
-
-    while start <= end:
+    while start < end:
         mid = (start+end)//2
         if arr[mid] < arr[mid+1]:  # check the pick
             start = mid + 1
