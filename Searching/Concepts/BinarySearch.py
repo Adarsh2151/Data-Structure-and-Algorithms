@@ -2,7 +2,7 @@
 def binarySearchR(arr,start,end,key):
     if start > end:
         return "Not Found"
-    mid = (start+end)//2
+    mid = (start+end)//2  # we use s + (e-s)/2  to get mid for large input
     if arr[mid] == key:
         return mid
     elif key > arr[mid]:
