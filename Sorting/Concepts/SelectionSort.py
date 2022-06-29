@@ -10,8 +10,6 @@ Selection Sort -
     
     Create FlowChart of this algorithm
 
-
-
 """
 def selection_sort(arr):
 

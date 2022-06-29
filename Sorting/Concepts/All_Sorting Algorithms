@@ -25,7 +25,7 @@ Bubble Sort -
                 [3, 4, 5, 6, 7, 8, 9, 10]
     Use Case - In ith iteration we put ith largest element to its position
     - Time complexity - O(n2) , Space complexity = O(1)
-    - Best Case - O(n) 
+    - Best Case - O(n)   
     * In place sorting - Do not use extra space
 
 
