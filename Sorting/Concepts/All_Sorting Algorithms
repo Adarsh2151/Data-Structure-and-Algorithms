@@ -2,7 +2,7 @@ Sorting algorithm is very famous to Algorithm where we have to organised things 
 There are many Sorting Algorithm exist some of them are:
 1. Selection Sort -  in every round the smallest value takes their correct place.
 2. Bubble Sort - in every round the largest value takes their correct place.
-
+3. Insertion Sort - take one index and shift to left while less
 Selection Sort - 
     - insert the ith minimum value at ith position by swapping
     first take the 0 th index then check the minimum in rest if found then swap further go to n - 1 index
@@ -28,9 +28,21 @@ Bubble Sort -
     - Best Case - O(n)   
     * In place sorting - Do not use extra space
 
-
-
-
+Insertion Sort - 
+    - Iterate all index and check for every index element while less than left SHIFT that
+        eg -   [7,9,6,2,4]
+               [7,9,6,2,4]
+               [7,6,9,2,4]
+               [6,7,9,2,4]
+               [6,7,2,9,4]
+               [6,2,7,9,4]
+               [2,6,7,9,4]
+               [2,6,7,4,9]
+               [2,6,4,7,9]
+               [2,4,6,7,9] # FOUND Sorted
+      Use Case - Adaptable and stable
+    - Time Complexity - O(n2) Space Complexity - O(1)
+    - Best Case O(n) worst case complexity O(n2)
 
 
 
