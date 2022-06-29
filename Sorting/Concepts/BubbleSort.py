@@ -13,7 +13,7 @@ Bubble Sort -
     Use Case - In ith iteration we put ith largest element to its position
     - Time complexity - O(n2) , Space complexity = O(1)
     - Best Case - O(n) 
-    In place sorting - Do not use extra space
+    * In place sorting - Do not use extra space
 
 
 
