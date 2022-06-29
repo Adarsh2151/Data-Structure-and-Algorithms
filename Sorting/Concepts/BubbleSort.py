@@ -1,17 +1,4 @@
-Sorting algorithm is very famous to Algorithm where we have to organised things in any order.
-There are many Sorting Algorithm exist some of them are:
-1. Selection Sort -  in every round the smallest value takes their correct place.
-2. Bubble Sort - in every round the largest value takes their correct place.
-
-Selection Sort - 
-    - insert the ith minimum value at ith position by swapping
-    first take the 0 th index then check the minimum in rest if found then swap further go to n - 1 index
-    - Time complexity is O(n2) same in best case and worst case
-
-    Use Case - If size of arr is small
-    
-    Create FlowChart of this algorithm
-
+"""
 Bubble Sort - 
     - compare with neighbour element if A[i+1] < A[i] then swap it. this will get the first largest element at there position.
         Perform this for n-1 times that will arrange all the largest value from last to first
@@ -31,6 +18,19 @@ Bubble Sort -
 
 
 
+"""
 
+def BubbleSort(arr):
+    for i in range(1,len(arr)):
+        sorted = True # this will determine that wheater we swapped or not if not then arr is sorted
+        for j in range(len(arr)-i): # because last i index is sorted
+            if arr[j] > arr[j+1]:
+                arr[j],arr[j+1] = arr[j+1],arr[j]
+                sorted = False
+        if sorted:
+            break
+    return arr
 
-
+if __name__ == "__main__":
+    arr = [4,9,6,3,8,5,10,7]
+    print(BubbleSort(arr))
