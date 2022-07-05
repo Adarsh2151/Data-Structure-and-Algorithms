@@ -1,4 +1,4 @@
-link = ""
+link = "https://leetcode.com/problems/string-compression/"
 """
 Given a problem to add occurance of character in same array if came with two or more digit then split it and add 
 
