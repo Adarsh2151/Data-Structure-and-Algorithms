@@ -2,7 +2,7 @@
 link = "https://www.codingninjas.com/codestudio/problems/sum-of-two-arrays_893186"
 
 """
-Given two array you ahve to add them
+Given two array you have to add them
 
 
 My approach to slove this problem - 
@@ -17,7 +17,7 @@ the cases may be ---
     2. check for first array if any index is left
     3. check for second array if any index is left
     4. check for carry
-    Every one have code to fkind sum and carry
+    Every one have code to find sum and carry
 
 
 
