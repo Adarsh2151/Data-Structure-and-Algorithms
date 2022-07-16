@@ -1,0 +1,4 @@
+Recursion - when a function call itself
+The application of Recursion -
+    On array - every operation that requires loop as like finding array sum,LeanerSearch,BinarySearch and so on.
+    On String - reverse it,check palindrome,Power,all sorting algorithm and so on
