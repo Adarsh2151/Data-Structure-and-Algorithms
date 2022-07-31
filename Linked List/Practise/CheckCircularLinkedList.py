@@ -8,7 +8,7 @@ link = "https://www.codingninjas.com/codestudio/problems/circularly-linked_10702
 4. In the input, the next pointer of a node with i’th integer is linked to the node with data (i+1)’th integer (If (i+1)’th node exists). If there is no such (i+1)’th integer then the next pointer of such node is set to NULL.
 
 
-
+For Better understanding read the code
 
 """
 
