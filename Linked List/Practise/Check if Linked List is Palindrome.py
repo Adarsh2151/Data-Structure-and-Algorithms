@@ -1,6 +1,6 @@
 # check palindrome .eg racecar
 
-link = "https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome"
+link = "https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1"
 """ 
 Approach1 - 
     - put all data to array 
