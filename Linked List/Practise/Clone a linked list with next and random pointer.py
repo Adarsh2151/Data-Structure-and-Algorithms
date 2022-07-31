@@ -1,5 +1,5 @@
 
-link = "https://practice.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer"
+link = "https://practice.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1"
 """ 
 In this problem there is change in structure of node where another pointer is storing any random node 
 
