@@ -51,7 +51,31 @@ def floydDetectBegin(head):
                 head = head.next
             return fast.data
 
+def removeLoop(head):
+    fast = head;
+    slow = head
+    prev = None
+    while fast and fast.next:
+        prev = slow
+        slow = slow.next
+        fast = fast.next.next
+        if slow == fast:
+            if slow == head:
+                prev.next = None
+                return head
+            slow = head
+            prev = None
+            while slow != fast:
+                prev = fast
+                slow = slow.next
+                fast = fast.next
+            prev.next = None
+            return head
+    return head
 
+
+        
+        
 if __name__ == "__main__":
     a = LinkedList(1)
     a.append(2)

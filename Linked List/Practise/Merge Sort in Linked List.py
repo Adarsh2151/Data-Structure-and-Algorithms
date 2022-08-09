@@ -6,7 +6,7 @@ Given a linked list you have to sort them by merge sort without replace of data 
 
 
 """ 
-Approach - O(logn),O(n)
+Approach - O(nlogn),O(n)
     devide the merge sort in 2 equal part
     use the code of merge sorted algorithm
 
